@@ -34,8 +34,7 @@ graph TD
     Admin --> Canal
     Bot --> Group
     Bot --> Canal
-    Group --> User 1
-    Group --> User 2
-    Group --> User 3
-    Group --> User 4
+    Group --> User1
+    Group --> User2
+    Group --> User3
 ```
