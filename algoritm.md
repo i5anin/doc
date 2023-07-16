@@ -31,9 +31,9 @@
 ```mermaid
 graph TD
     Admin --> Group
-    Admin --> Canal
+    Admin --> Channel
     Bot --> Group
-    Bot --> Canal
+    Bot --> Channel
     Group --> User1
     Group --> User2
     Group --> User3
