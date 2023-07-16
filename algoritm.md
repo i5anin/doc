@@ -27,3 +27,15 @@
 - Бот транслирует распознанные команды администратору в личные сообщения или каналы:
 
   - Используются каналы для трансляции сообщений.
+
+```mermaid
+graph TD
+    Admin --> Group
+    Admin --> Canal
+    Bot --> Group
+    Bot --> Canal
+    Group --> User 1
+    Group --> User 2
+    Group --> User 3
+    Group --> User 4
+```
