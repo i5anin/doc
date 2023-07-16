@@ -38,3 +38,14 @@ graph TD
     Group --> User2
     Group --> User3
 ```
+
+```mermaid
+flowchart TD
+    Admin --> Group
+    Admin --> Canal
+    Bot --> Group
+    Bot --> Canal
+    Group --> User1
+    Group --> User2
+    Group --> User3
+```
